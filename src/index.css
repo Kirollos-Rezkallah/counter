@@ -69,3 +69,50 @@ h1 {
 .reset:hover {
   background-color: #206bb5;
 }
+
+/* Responsive styles for phones */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 20px; /* Add some padding to the body for better spacing on small screens */
+    height: auto; /* Allow the body to grow in height */
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
+  }
+
+  .app {
+    width: 90%; /* Make the app take the full width of the screen */
+    padding: 15px; /* Reduce padding for smaller screens */
+    margin: 10px 0; /* Add some margin between counters */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Reduce the font size of the main heading */
+  }
+
+  .counter h2 {
+    font-size: 1.5rem; /* Reduce the font size of the counter display */
+  }
+
+  .btn {
+    width: 100%; /* Make buttons full width on small screens */
+    margin: 5px 0; /* Adjust margin for stacked buttons */
+    font-size: 0.9rem; /* Slightly reduce font size for buttons */
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+  }
+
+  .counter {
+    margin-top: 20px; /* Reduce margin for counters */
+  }
+}
+
+/* Responsive styles for tablets and smaller desktops */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .app {
+    width: 80%; /* Make the app take 80% of the screen width */
+    padding: 20px; /* Keep padding consistent */
+  }
+
+  .btn {
+    width: auto; /* Allow buttons to have their natural width */
+    margin: 5px; /* Keep margin consistent */
+  }
+}

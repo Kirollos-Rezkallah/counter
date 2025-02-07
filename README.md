@@ -19,6 +19,6 @@ Check out the live demo of this app here: [Simple Counter App](https://kirollos-
 - **CSS**: For styling the components.
 - **JavaScript**: For logic and interactivity.
 
-## Contact us
+## Contact us 💌
 
 Crafted with passion by Kirollos Rezkallah. Explore more projects on [GitHub](https://github.com/Kirollos-Rezkallah) and drop me a message at [kiroomamdouh@gmail.com](mailto:kiroomamdouh@gmail.com) for instant connections and collaborations.

@@ -1,0 +1,61 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+/* Counter component styles */
+.counter {
+  margin-top: 20px;
+}
+
+.counter h2 {
+  font-size: 2rem;
+  color: #555;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.increment {
+  background-color: #28a745;
+  color: white;
+}
+
+.increment:hover {
+  background-color: #218838;
+}
+
+.decrement {
+  background-color: #dc3545;
+  color: white;
+}
+
+.decrement:hover {
+  background-color: #c82333;
+}
